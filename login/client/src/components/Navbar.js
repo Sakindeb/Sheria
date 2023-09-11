@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 //navigation panel
 function Navbar(){
     return(
-        <header>
+        <header className={styles.header}>
             <nav className={styles.nav}>
                 
                 <h1 className="slogan">THE LEGAL SAVANNAH | Sheria Mkononi</h1>

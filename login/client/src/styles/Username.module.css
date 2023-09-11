@@ -1,18 +1,11 @@
-.fullHeight {
-    background: rgba(26, 26, 26, 0.548) no-repeat center center fixed;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    
-}
+
 
 .glass{
     background: rgba(255, 255, 255, 0.55);
     border-radius: 10px;
     box-shadow: 0 4px 30px #4747470b;
     backdrop-filter: blur(7.1px);
+    
     border: 1px solid rgba(255, 255, 255, 0.3);
     @apply border-4 border-gray-50 shrink-0 h-3/4 w-[30%] rounded-3xl py-20 px-7 min-w-max;
 }
@@ -36,3 +29,19 @@
 .btn:hover{
     background-color: rgb(43, 27, 15);
 }
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .glass {
+      width: 50%;
+      
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .glass {
+        width: 50%;
+        
+        
+      }
+  }

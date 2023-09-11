@@ -10,15 +10,20 @@
     font-size: 20px;
 }
 body{
-    background: url('./assets/justice.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    padding: 00px;
-    /* color: white; */
-    filter: brightness(80%);
-    opacity: 0.75;;
-    
+    color: black;
 }
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .body {
+      width: 50%;
+      
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .body {
+        width: 50%;
+        
+      }
+  }
